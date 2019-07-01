@@ -1,0 +1,16 @@
+{"namespace": "odg.test.avro",
+ "type": "record",
+ "name": "Passenger",
+ "fields": [
+     {"name": "id", "type": "int"},
+     {"name": "pclass", "type": "int", "default": 1},
+     {"name": "sex", "type": "string", "default": "male"},
+     {"name": "survived", "type": "int"},
+     {"name": "embarked", "type": "string"},
+     {"name": "sibsp", "type": "int"},
+     {"name": "age", "type": "int"},
+     {"name": "fare", "type": "float"}
+ ]
+}
+
+
