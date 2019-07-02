@@ -1,0 +1,3 @@
+ksql
+confluent-kafka[avro]
+pandas
